@@ -802,7 +802,6 @@ def get_f1_score(p_t,p):
     return f1_list    
 
 if __name__ == "__main__":
-    #datafile = '\home\udas\Codes\preferece_pureexp\covboost.csv'
     designs = np.array(pd.read_csv("~/Codes/preferece_pureexp/covboost.csv", delimiter=','))
     #print(designs)
     mu = designs
